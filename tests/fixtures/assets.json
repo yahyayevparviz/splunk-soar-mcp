@@ -1,0 +1,35 @@
+{
+  "count": 2,
+  "num_pages": 1,
+  "data": [
+    {
+      "id": 3,
+      "name": "abuseipdb",
+      "product_vendor": "AbuseIPDB",
+      "product_name": "AbuseIPDB",
+      "type": "reputation",
+      "configuration": {
+        "base_url": "https://api.abuseipdb.example",
+        "api_key": "FAKE-SHOULD-NEVER-LEAK",
+        "verify_server_cert": true
+      },
+      "tags": []
+    },
+    {
+      "id": 4,
+      "name": "virustotal",
+      "product_vendor": "VirusTotal",
+      "product_name": "VirusTotal v3",
+      "type": "reputation",
+      "configuration": {
+        "server": "https://vt.example",
+        "apiKey": "FAKE-SHOULD-NEVER-LEAK",
+        "auth": {
+          "password": "FAKE-PW",
+          "username": "svc"
+        },
+        "ph-auth-token": "FAKE-TOKEN"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "count": 3,
+  "num_pages": 1,
+  "data": [
+    {
+      "id": 31,
+      "name": "edr_ip_hash_enrichment",
+      "description": "Enrich IPs (AbuseIPDB) and hashes (VirusTotal) on EDR cases. No containment.",
+      "active": true,
+      "labels": [
+        "edr"
+      ],
+      "tags": [
+        "enrichment"
+      ],
+      "category": "Enrichment",
+      "repo": 2,
+      "version": 4,
+      "python_version": "3",
+      "internal_junk": "x"
+    },
+    {
+      "id": 32,
+      "name": "phishing_triage",
+      "description": "Parse reported email, detonate URLs, score sender.",
+      "active": true,
+      "labels": [
+        "phishing"
+      ],
+      "tags": [
+        "triage"
+      ],
+      "category": "Triage"
+    },
+    {
+      "id": 33,
+      "name": "generic_notify",
+      "description": "Send case summary to chat channel.",
+      "active": true,
+      "labels": [
+        "*"
+      ],
+      "tags": [
+        "notification"
+      ],
+      "category": "Notification"
+    }
+  ]
+}

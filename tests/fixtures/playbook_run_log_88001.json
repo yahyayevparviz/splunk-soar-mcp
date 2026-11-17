@@ -1,0 +1,26 @@
+{
+  "count": 4,
+  "num_pages": 1,
+  "data": [
+    {
+      "message": "Starting playbook 'edr_ip_hash_enrichment' on container 1001",
+      "time": "2026-01-15T08:13:00Z",
+      "message_type": "info"
+    },
+    {
+      "message": "ip_reputation_1() called",
+      "time": "2026-01-15T08:13:01Z",
+      "message_type": "debug"
+    },
+    {
+      "message": "file_reputation_1: action failed: Error: 429 quota exceeded",
+      "time": "2026-01-15T08:13:08Z",
+      "message_type": "error"
+    },
+    {
+      "message": "Traceback (most recent call last): KeyError: 'summary'",
+      "time": "2026-01-15T08:13:09Z",
+      "message_type": "error"
+    }
+  ]
+}

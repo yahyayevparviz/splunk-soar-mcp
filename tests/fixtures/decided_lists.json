@@ -1,0 +1,36 @@
+{
+  "count": 2,
+  "num_pages": 1,
+  "data": [
+    {
+      "id": 5,
+      "name": "vip_users",
+      "content": [
+        [
+          "jdoe",
+          "Finance"
+        ],
+        [
+          "asmith",
+          "CEO office"
+        ]
+      ],
+      "update_time": "2026-01-10T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "name": "ip_allowlist",
+      "content": [
+        [
+          "198.51.100.10",
+          "scanner"
+        ],
+        [
+          "198.51.100.11",
+          "backup"
+        ]
+      ],
+      "update_time": "2026-01-11T00:00:00Z"
+    }
+  ]
+}

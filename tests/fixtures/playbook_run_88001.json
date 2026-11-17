@@ -1,0 +1,8 @@
+{
+  "id": 88001,
+  "playbook": 31,
+  "container": 1001,
+  "status": "failed",
+  "message": "Playbook 'edr_ip_hash_enrichment' failed",
+  "start_time": "2026-01-15T08:13:00Z"
+}

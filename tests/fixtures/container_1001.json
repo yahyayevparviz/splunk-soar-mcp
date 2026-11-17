@@ -1,0 +1,22 @@
+{
+  "id": 1001,
+  "name": "Suspicious PowerShell EncodedCommand",
+  "label": "edr",
+  "severity": "high",
+  "status": "new",
+  "sensitivity": "amber",
+  "owner": null,
+  "create_time": "2026-01-15T08:12:44.000000Z",
+  "close_time": null,
+  "tags": [
+    "edr"
+  ],
+  "artifact_count": 3,
+  "container_type": "default",
+  "source_data_identifier": "det-0001",
+  "description": "EDR detection: powershell -enc on WS-0001",
+  "custom_fields": {
+    "x": "noise"
+  },
+  "asset": 5
+}

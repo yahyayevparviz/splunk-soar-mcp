@@ -1,0 +1,9 @@
+{
+  "id": 990,
+  "name": "Outbound to known bad IP",
+  "label": "siem",
+  "severity": "medium",
+  "status": "closed",
+  "create_time": "2026-01-08T10:00:00Z",
+  "close_time": "2026-01-08T12:00:00Z"
+}

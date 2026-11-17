@@ -1,0 +1,31 @@
+{
+  "count": 2,
+  "num_pages": 1,
+  "data": [
+    {
+      "id": 88001,
+      "playbook": 31,
+      "container": 1001,
+      "status": "failed",
+      "message": "Playbook 'edr_ip_hash_enrichment' failed",
+      "start_time": "2026-01-15T08:13:00Z",
+      "update_time": "2026-01-15T08:13:09Z",
+      "effective_user": 2,
+      "log_level": 1
+    },
+    {
+      "id": 88000,
+      "playbook": 31,
+      "container": 995,
+      "status": "success",
+      "message": "Playbook 'edr_ip_hash_enrichment' completed",
+      "start_time": "2026-01-15T06:02:00Z"
+    },
+    {
+      "id": 87999,
+      "playbook": 31,
+      "container": 2002,
+      "status": "success"
+    }
+  ]
+}

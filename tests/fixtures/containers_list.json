@@ -1,0 +1,30 @@
+{
+  "count": 3,
+  "num_pages": 1,
+  "data": [
+    {
+      "id": 1001,
+      "name": "Suspicious PowerShell EncodedCommand",
+      "label": "edr",
+      "severity": "high",
+      "status": "new",
+      "create_time": "2026-01-15T08:12:44Z"
+    },
+    {
+      "id": 995,
+      "name": "Brute force VPN",
+      "label": "siem",
+      "severity": "medium",
+      "status": "open",
+      "create_time": "2026-01-15T06:01:00Z"
+    },
+    {
+      "id": 2002,
+      "name": "Other team case",
+      "label": "other_team",
+      "severity": "low",
+      "status": "new",
+      "create_time": "2026-01-15T07:00:00Z"
+    }
+  ]
+}

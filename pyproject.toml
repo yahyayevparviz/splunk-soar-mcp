@@ -1,0 +1,36 @@
+[project]
+name = "soar-analyst-mcp"
+version = "0.3.0"
+description = "Splunk SOAR MCP server for SOC analysts: triage, investigation, playbook debugging and controlled response"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Parviz Yahyayev" }]
+requires-python = ">=3.10"
+keywords = ["mcp", "splunk", "soar", "phantom", "soc", "security", "triage"]
+dependencies = [
+    "mcp>=2.3,<3",
+    "requests>=2.31",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+soar-analyst-mcp = "soar_analyst_mcp.server:main"
+
+[project.urls]
+Repository = "https://github.com/yahyayevparviz/soar-analyst-mcp"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["soar_analyst_mcp*"]
+
+[tool.setuptools.package-data]
+soar_analyst_mcp = ["descriptions/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
